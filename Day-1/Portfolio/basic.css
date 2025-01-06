@@ -1,0 +1,98 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+
+
+body{
+    background-image: url('https://images.pexels.com/photos/1183099/pexels-photo-1183099.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+    transition: all 2s ease-in-out;
+}
+
+header{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1{
+    color: white;
+}
+
+header nav ul li {
+    display: inline;
+    padding: 50px;
+}
+header nav ul li a{
+    color: sandybrown;
+    text-decoration: none;
+}
+
+header nav ul{
+    padding-top: 20px;
+}
+
+#home {
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+}
+
+#home img{
+    opacity: 20;
+    padding-top: 20px;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+#bio{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+
+}
+#bio h2{
+    padding-bottom: 20px;
+}
+#bio p{
+    width: 60%;
+    padding-left: 20%;
+}
+
+#portfolio{
+    background-color: sandybrown;
+}
+
+#portfolio h2{
+    padding: 20px;
+}
+#portfolio ul li{
+    padding: 10px;
+}
+
+#skills{
+    padding: 20px;
+    color: white;
+}
+
+#skills ul li{
+    padding: 10px;
+    list-style: none;
+}
+
+#contact{
+    background-color: black;
+    color: white;
+}
+
+#contact p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
